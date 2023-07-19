@@ -1,0 +1,20 @@
+@media screen and (max-width:425px){
+    .nav-container{
+        flex-direction:column-reverse;
+        width: 100%;
+
+    }
+    .nav-title{
+        flex-direction:column;
+        width: 100%;
+    }
+    .nav-manus{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    
+}
+    
