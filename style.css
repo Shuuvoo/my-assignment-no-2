@@ -8,8 +8,107 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #FFF;
+    width: 100%;
+    height: 130px;
+}
+
+.nav-title{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 45px;
+}
+
+.g{
+    color: palevioletred;
+    margin-left: 10px;
 }
 .nav-pic{
-    height: 50px;
-    width: 60px;
+    height: 30px;
+    
+
 }
+  
+.nav-manus a{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+
+}
+.nav-manus ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.follow{
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+/* nav menu ends here */
+
+/* banner section starts here */
+.banner-container{
+    display: flex;
+    
+}
+
+.banner-description{
+    width: 900px;
+    height: 700px;
+   padding: 150px;
+
+}
+.h2.play{
+    font-size: 50px;
+    font-weight: 600;
+    color: #0B0223;
+
+}
+.h1-goat{
+    font-size: 60px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.banner-des{
+    font-size: 15px;
+
+}
+.sign-btn{
+    background-color: #F948B2;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 15px;
+
+}
+.go-btn{
+    background-color:#4EC5F7;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.banner-pic{
+    
+
+}
+.banner-png{
+    width: 600px;
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* banner section ends here */
